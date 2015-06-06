@@ -13,24 +13,13 @@ namespace CrackR
     {
         static void Main(string[] args)
         {
-            var stack = new SetOfStacks<int>();
-            stack.Push(6);
-            stack.Push(5);
-            stack.Push(7);
-            for (int i = 0; i < 100; i++)
+            var Q = new QueueOfStacks<int>();
+            for (int i = 1; i <= 20; i++)
             {
-                stack.Push(i);
+                Q.Push(i);
             }
-            //stack.Pop();
-            Console.WriteLine(stack.Pop());
-            Console.WriteLine(stack.PopAt(0));
-            stack.Push(666);
-            stack.Push(777);
-            Console.WriteLine("The beast:" + stack.PopAt(0));
-            stack.Push(111);
-            stack.Push(112);
-            stack.Push(113);
-            Console.WriteLine(stack.Pop());
+            for(int i=1; i<=20; i++)
+                Console.WriteLine(Q.Peek());
             Console.ReadKey();
         }
     }
