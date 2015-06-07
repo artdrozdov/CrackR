@@ -13,13 +13,15 @@ namespace CrackR
     {
         static void Main(string[] args)
         {
-            var Q = new QueueOfStacks<int>();
-            for (int i = 1; i <= 20; i++)
+            var st = new SortedStack<int>();
+            for (int i = 20; i > 0; i--)
             {
-                Q.Push(i);
+                st.Push(i);
             }
-            for(int i=1; i<=20; i++)
-                Console.WriteLine(Q.Peek());
+            while (st.Count > 0)
+            {
+                Console.WriteLine(st.Pop());
+            }
             Console.ReadKey();
         }
     }

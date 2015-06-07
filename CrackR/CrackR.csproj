@@ -51,6 +51,7 @@
     <Compile Include="StacksAndQueues\MinStack.cs" />
     <Compile Include="StacksAndQueues\QueueOfStacks.cs" />
     <Compile Include="StacksAndQueues\SetOfStacks.cs" />
+    <Compile Include="StacksAndQueues\SortedStack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
