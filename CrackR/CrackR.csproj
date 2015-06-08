@@ -53,6 +53,7 @@
     <Compile Include="StacksAndQueues\QueueOfStacks.cs" />
     <Compile Include="StacksAndQueues\SetOfStacks.cs" />
     <Compile Include="StacksAndQueues\SortedStack.cs" />
+    <Compile Include="TreesAndGraphs\BinaryTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

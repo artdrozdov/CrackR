@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using CrackR.Arrays;
 using CrackR.Lists;
 using CrackR.StacksAndQueues;
+using CrackR.TreesAndGraphs;
 
 namespace CrackR
 {
@@ -13,15 +14,13 @@ namespace CrackR
     {
         static void Main(string[] args)
         {
-            var st = new SortedStack<int>();
-            for (int i = 20; i > 0; i--)
-            {
-                st.Push(i);
-            }
-            while (st.Count > 0)
-            {
-                Console.WriteLine(st.Pop());
-            }
+            var tree = new BinaryTree<int>();
+            tree.Add(2);
+            tree.Add(1);
+            tree.Add(3);
+            tree.Add(5);
+            tree.Add(0);
+            Console.WriteLine(tree.IsBalanced());
             Console.ReadKey();
         }
     }
