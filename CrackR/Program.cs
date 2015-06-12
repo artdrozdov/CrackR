@@ -14,13 +14,7 @@ namespace CrackR
     {
         static void Main(string[] args)
         {
-            var tree = new BinaryTree<int>();
-            tree.Add(2);
-            tree.Add(1);
-            tree.Add(3);
-            tree.Add(5);
-            tree.Add(0);
-            Console.WriteLine(tree.IsBalanced());
+            Console.WriteLine(BitwiseOperations.BitwiseOperations.InsertBits(-1,19,2,6));
             Console.ReadKey();
         }
     }

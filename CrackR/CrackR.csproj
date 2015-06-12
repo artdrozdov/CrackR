@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\ArrayExtensions.cs" />
+    <Compile Include="BitwiseOperations\BitwiseOperations.cs" />
     <Compile Include="Lists\Node.cs" />
     <Compile Include="Lists\NodeExtensions.cs" />
     <Compile Include="Lists\TiedNode.cs" />
