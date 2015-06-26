@@ -43,6 +43,14 @@
   <ItemGroup>
     <Compile Include="Arrays\ArrayExtensions.cs" />
     <Compile Include="BitwiseOperations\BitwiseOperations.cs" />
+    <Compile Include="Design\CallCenter\CallCenter.cs" />
+    <Compile Include="Design\CallCenter\Headquarters.cs" />
+    <Compile Include="Design\CallCenter\Operators\Boss.cs" />
+    <Compile Include="Design\CallCenter\Operators\CallCenterOperator.cs" />
+    <Compile Include="Design\CallCenter\ICaller.cs" />
+    <Compile Include="Design\CallCenter\Operators\IOperator.cs" />
+    <Compile Include="Design\CallCenter\ManagmentCenter.cs" />
+    <Compile Include="Design\CallCenter\Operators\Manager.cs" />
     <Compile Include="Lists\Node.cs" />
     <Compile Include="Lists\NodeExtensions.cs" />
     <Compile Include="Lists\TiedNode.cs" />
@@ -59,6 +67,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

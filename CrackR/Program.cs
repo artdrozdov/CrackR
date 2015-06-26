@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CrackR.Arrays;
+using CrackR.BitwiseOperations;
+using CrackR.Design.CallCenter;
 using CrackR.Lists;
 using CrackR.StacksAndQueues;
 using CrackR.TreesAndGraphs;
@@ -14,7 +16,9 @@ namespace CrackR
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(BitwiseOperations.BitwiseOperations.InsertBits(-1,19,2,6));
+            var callCenter = new CallCenter(new ManagmentCenter(new Headquarters()));
+            for(int i=0; i<10; i++)
+                callCenter.DispatchCall();
             Console.ReadKey();
         }
     }
