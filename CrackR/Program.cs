@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CrackR.Arrays;
 using CrackR.BitwiseOperations;
+using CrackR.CodeForces.Acm;
 using CrackR.Design.CallCenter;
 using CrackR.EasyTasks;
 using CrackR.Lists;
@@ -17,10 +18,9 @@ namespace CrackR
     {
         static void Main(string[] args)
         {
-            int a = 5;
-            int b = 7;
-            Swapper.SwapInts(ref a, ref b);
-            Console.WriteLine("a = {0}, b = {1}",a,b);
+            var strnum = Console.ReadLine();
+            var b = new BahosianAndDigits();
+            Console.WriteLine(b.MaximumK(strnum));
             Console.ReadKey();
         }
     }

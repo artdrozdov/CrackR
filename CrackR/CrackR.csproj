@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Arrays\ArrayExtensions.cs" />
     <Compile Include="BitwiseOperations\BitwiseOperations.cs" />
+    <Compile Include="CodeForces\Acm\BahosianAndDigits.cs" />
     <Compile Include="Design\CallCenter\CallCenter.cs" />
     <Compile Include="Design\CallCenter\Headquarters.cs" />
     <Compile Include="Design\CallCenter\Operators\Boss.cs" />
